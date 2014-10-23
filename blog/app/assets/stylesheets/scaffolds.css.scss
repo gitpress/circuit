@@ -1,15 +1,23 @@
 body {
   background-color: #fff;
   color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+}
+
+td {
+  padding: 15px
+}
+
+td:even{
+  background-color: silver;
 }
 
 pre {
@@ -67,5 +75,4 @@ div {
     list-style: square;
   }
 }
-
 
