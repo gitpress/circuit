@@ -9,13 +9,14 @@ class CommentsController < ApplicationController
       else
         redirect_to @post,
                     alert: 'Error creating comment.'
+        puts @post.errors
       end
     end
   
   private
 
   def comment_params
-    params.require(:comment).permit(:author, :body)
+    params.require(:comment).permit(:author, :body, :email)
   end
   
 end
