@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "overrides";
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -28,4 +29,12 @@ td:nth-child(even){
 td:nth-child(odd){
   background-color: white;
   border: 2px solid black;
+}
+
+#main {
+  margin-top: 80px;
+}
+
+.navbar {
+  background-color: #fff;
 }
